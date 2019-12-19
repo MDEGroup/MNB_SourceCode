@@ -1,0 +1,1438 @@
+------------------------------
+3da1studmuffin/SpaceshipGenerator
+actual topics [python,3d]
+predicted topics [terminal,shell,3d,opengl,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 50.0
+top rank: 0
+AaronJackson/vrn
+actual topics [3d]
+predicted topics [matlab,3d,deep-learning,machine-learning,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 0
+akaJes/marlin-config
+actual topics [nodejs,3d,documentation]
+predicted topics [atom,continuous-integration,npm,git,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+alibaba/G3D
+actual topics [react-native,3d]
+predicted topics [spring-boot,maven,koa,gradle,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+andyzeng/3dmatch-toolbox
+actual topics [deep-learning,3d]
+predicted topics [matlab,3d,tensorflow,deep-learning,cpp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 100.0
+top rank: 0
+andyzeng/tsdf-fusion
+actual topics [3d]
+predicted topics [3d,matlab,machine-learning,deep-learning,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 1
+andyzeng/visual-pushing-grasping
+actual topics [deep-learning,3d]
+predicted topics [tensorflow,deep-learning,3d,scikit-learn,shell]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 100.0
+top rank: 0
+anhttran/extreme_3d_faces
+actual topics [3d]
+predicted topics [3d,deep-learning,tensorflow,matlab,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 1
+antvis/L7
+actual topics [data-visualization,3d,javascript]
+predicted topics [spring-boot,maven,koa,express,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 33.33333333333333
+top rank: 0
+armory3d/armorpaint
+actual topics [3d]
+predicted topics [opengl,3d,game-engine,compiler,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 0
+avg precision: 20.0
+avg recall: 68.33333333333334
+top rank ratio: 60
+------------------------------
+ajaxaaroniker/gear-cms
+actual topics [php,vue,ajax]
+predicted topics [wordpress,react-native,sketch,xamarin,bootstrap]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+algolia/faux-jax
+actual topics [ajax,http]
+predicted topics [nodejs,express,eslint,npm,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+avinashn/Ajax-CRUD-example-in-laravel
+actual topics [ajax,laravel,php,javascript]
+predicted topics [laravel,ajax,web-components,jquery,php]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 60.0
+recall 75.0
+top rank: 1
+bahdcoder/Laravel-5.3-and-Vue-js-2.0-social-network
+actual topics [javascript,ajax]
+predicted topics [laravel,symfony,localization,framework,php]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+BosNaufal/vue2-autocomplete
+actual topics [vue,ajax]
+predicted topics [ajax,vue,web-components,jquery,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 100.0
+top rank: 1
+cferdinandi/atomic
+actual topics [javascript,ajax]
+predicted topics [ajax,gulp,nodejs,npm,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 100.0
+top rank: 1
+codingforentrepreneurs/Django-Chart.js
+actual topics [django,python,json,ajax]
+predicted topics [django,wagtail,rest-api,flask,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 50.0
+top rank: 1
+codingforentrepreneurs/eCommerce
+actual topics [python,django,ajax,bootstrap,jquery]
+predicted topics [bootstrap,django,ajax,firebase,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 1
+success rate v5: 0
+precision 80.0
+recall 80.0
+top rank: 1
+craftpip/jquery-confirm
+actual topics [ajax,jquery]
+predicted topics [jquery,ajax,bootstrap,web-components,html]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 100.0
+top rank: 1
+avg precision: 33.333333333333336
+avg recall: 56.111111111111114
+top rank ratio: 54
+------------------------------
+algorithm0xAX/go-algorithms
+actual topics [algorithm,data-structures,go]
+predicted topics [data-structures,algorithm,linux,twitter,terminal]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 66.66666666666666
+top rank: 1
+algorithm-archivists/algorithm-archive
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,jupyter-notebook,machine-learning,jekyll]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 1
+algorithm-visualizer/algorithm-visualizer
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,machine-learning,matlab,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 1
+Alinshans/MyTinySTL
+actual topics [algorithm,cpp]
+predicted topics [terraform,3d,shell,http,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 50.0
+top rank: 0
+Aniket965/Hello-world
+actual topics [algorithm]
+predicted topics [data-structures,cli,chrome-extension,jekyll,vim]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+anthonynsimon/bild
+actual topics [algorithm,go]
+predicted topics [localization,unity,react-native,matlab,go]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 50.0
+top rank: 0
+anvaka/ngraph.path
+actual topics [algorithm]
+predicted topics [compiler,algorithm,data-structures,graphql,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 20.0
+recall 100.0
+top rank: 0
+apachecn/awesome-algorithm
+actual topics [algorithm,python]
+predicted topics [linux,atom,git,bash,java]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+AtsushiSakai/PythonRobotics
+actual topics [python,algorithm,localization]
+predicted topics [localization,matlab,3d,machine-learning,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 40.0
+recall 66.66666666666666
+top rank: 1
+attractivechaos/klib
+actual topics [c,library,algorithm]
+predicted topics [library,data-structures,algorithm,wordpress,c]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 60.0
+recall 100.0
+top rank: 1
+avg precision: 24.0
+avg recall: 63.33333333333333
+top rank ratio: 60
+------------------------------
+3da1studmuffin/SpaceshipGenerator
+actual topics [python,3d]
+predicted topics [terminal,shell,3d,opengl,game-engine,unity,npm,firefox,chrome-extension,nodejs,sketch,cli,raspberry-pi,google,chrome,vim,bash,nativescript,react-native,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+AaronJackson/vrn
+actual topics [3d]
+predicted topics [matlab,3d,deep-learning,machine-learning,emacs,tensorflow,nlp,ubuntu,shell,scikit-learn,bash,opengl,homebrew,jupyter-notebook,vagrant,nodejs,monero,data-visualization,ansible,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+akaJes/marlin-config
+actual topics [nodejs,3d,documentation]
+predicted topics [atom,continuous-integration,npm,git,homebridge,eslint,shell,bash,jekyll,raspberry-pi,cli,vagrant,deployment,babel,nodejs,ansible,gulp,firefox,webpack,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+alibaba/G3D
+actual topics [react-native,3d]
+predicted topics [spring-boot,maven,koa,gradle,express,mongoose,ajax,chrome,es6,vue,mongodb,algorithm,mysql,gulp,chrome-extension,nlp,webpack,unity,frontend,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+andyzeng/3dmatch-toolbox
+actual topics [deep-learning,3d]
+predicted topics [matlab,3d,tensorflow,deep-learning,machine-learning,nlp,scikit-learn,jupyter-notebook,gulp,mongoose,eslint,data-visualization,sketch,algorithm,shell,unity,bash,es6,express,cpp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+andyzeng/tsdf-fusion
+actual topics [3d]
+predicted topics [3d,matlab,machine-learning,deep-learning,tensorflow,unity,opengl,nlp,data-visualization,scikit-learn,jupyter-notebook,game-engine,ubuntu,sketch,homebridge,nativescript,algorithm,azure,localization,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+andyzeng/visual-pushing-grasping
+actual topics [deep-learning,3d]
+predicted topics [tensorflow,deep-learning,3d,scikit-learn,nlp,machine-learning,jupyter-notebook,matlab,raspberry-pi,ubuntu,data-visualization,bash,nodejs,aws,sketch,bitcoin,azure,homebridge,shell,shell]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+anhttran/extreme_3d_faces
+actual topics [3d]
+predicted topics [3d,deep-learning,tensorflow,matlab,machine-learning,nlp,scikit-learn,jupyter-notebook,docker,vagrant,rest-api,shell,opengl,raspberry-pi,ansible,ubuntu,nodejs,npm,data-visualization,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+antvis/L7
+actual topics [data-visualization,3d,javascript]
+predicted topics [spring-boot,maven,koa,express,mongoose,gradle,es6,vue,chrome,mongodb,ajax,gulp,algorithm,mysql,chrome-extension,webpack,nlp,frontend,material-design,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+armory3d/armorpaint
+actual topics [3d]
+predicted topics [opengl,3d,game-engine,compiler,windows,git,homebrew,macos,shell,linux,emulator,nodejs,bash,npm,vagrant,vim,cli,firefox,terminal,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+avg precision: 5.5
+avg recall: 71.66666666666666
+top rank ratio: 60
+------------------------------
+ajaxaaroniker/gear-cms
+actual topics [php,vue,ajax]
+predicted topics [wordpress,react-native,sketch,xamarin,bootstrap,twitter,wagtail,laravel,android,firebase,css,ios,firefox,jekyll,graphql,library,terminal,markdown,opengl,vim]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+algolia/faux-jax
+actual topics [ajax,http]
+predicted topics [nodejs,express,eslint,npm,ajax,babel,http,koa,webpack,mongoose,react-native,gulp,json,es6,nativescript,testing,rest-api,react,graphql,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+avinashn/Ajax-CRUD-example-in-laravel
+actual topics [ajax,laravel,php,javascript]
+predicted topics [laravel,ajax,web-components,jquery,mongoose,localization,sass,rest-api,azure,koa,wordpress,minecraft,algorithm,webapp,mongodb,data-structures,database,ubuntu,firefox,php]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 75.0
+top rank: 1
+bahdcoder/Laravel-5.3-and-Vue-js-2.0-social-network
+actual topics [javascript,ajax]
+predicted topics [laravel,symfony,localization,framework,api,shell,rest-api,terminal,webpack,database,google,deployment,twitter,wordpress,firebase,gulp,graphql,rails,jquery,php]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+BosNaufal/vue2-autocomplete
+actual topics [vue,ajax]
+predicted topics [ajax,vue,web-components,jquery,nativescript,es6,webpack,npm,frontend,atom,react,eslint,react-native,bootstrap,babel,nodejs,express,redux,pwa,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+cferdinandi/atomic
+actual topics [javascript,ajax]
+predicted topics [ajax,gulp,nodejs,npm,atom,jquery,eslint,es6,express,babel,sass,react-native,web-components,nativescript,http,webpack,chrome,pwa,rest-api,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+codingforentrepreneurs/Django-Chart.js
+actual topics [django,python,json,ajax]
+predicted topics [django,wagtail,rest-api,flask,bootstrap,data-visualization,raspberry-pi,webapp,pwa,graphql,redux,material-design,kubernetes,webpack,mongodb,laravel,ajax,nodejs,serverless,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 75.0
+top rank: 1
+codingforentrepreneurs/eCommerce
+actual topics [python,django,ajax,bootstrap,jquery]
+predicted topics [bootstrap,django,ajax,firebase,pico-8,redux,serverless,angular,aws,web-components,algorithm,rest-api,ember,sass,pwa,wagtail,data-structures,react,express,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 1
+success rate v5: 0
+precision 20.0
+recall 80.0
+top rank: 1
+craftpip/jquery-confirm
+actual topics [ajax,jquery]
+predicted topics [jquery,ajax,bootstrap,web-components,sass,eslint,css,npm,material-design,react-native,frontend,ember,sketch,chrome-extension,gulp,jekyll,es6,nativescript,shell,html]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+avg precision: 10.0
+avg recall: 70.0
+top rank ratio: 54
+------------------------------
+algorithm0xAX/go-algorithms
+actual topics [algorithm,data-structures,go]
+predicted topics [data-structures,algorithm,linux,twitter,terminal,git,firefox,shell,bash,nodejs,emacs,ethereum,nosql,windows,mongodb,scikit-learn,database,sql,matlab,nlp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 66.66666666666666
+top rank: 1
+algorithm-archivists/algorithm-archive
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,jupyter-notebook,machine-learning,jekyll,operating-system,documentation,scikit-learn,latex,monero,react,linux,bitcoin,deep-learning,emacs,xamarin,nodejs,tensorflow,es6,frontend]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+algorithm-visualizer/algorithm-visualizer
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,machine-learning,matlab,webpack,deep-learning,data-visualization,scikit-learn,jupyter-notebook,monero,tensorflow,frontend,react,npm,react-native,nodejs,pwa,ipfs,firebase,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+Alinshans/MyTinySTL
+actual topics [algorithm,cpp]
+predicted topics [terraform,3d,shell,http,font,deep-learning,docker,homebrew,qt,dotnet,postgresql,graphql,emulator,library,vagrant,web-components,security,crystal,windows,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+Aniket965/Hello-world
+actual topics [algorithm]
+predicted topics [data-structures,cli,chrome-extension,jekyll,vim,atom,emacs,shell,documentation,twitter,react,npm,serverless,github-api,macos,gradle,nativescript,markdown,terminal,windows]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+anthonynsimon/bild
+actual topics [algorithm,go]
+predicted topics [localization,unity,react-native,matlab,3d,sketch,babel,opengl,deep-learning,npm,nodejs,ios,machine-learning,cli,webpack,react,graphql,tensorflow,frontend,go]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+anvaka/ngraph.path
+actual topics [algorithm]
+predicted topics [compiler,algorithm,data-structures,graphql,npm,deep-learning,tensorflow,cli,3d,data-visualization,nodejs,vim,ipfs,machine-learning,es6,webpack,babel,bash,nlp,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+apachecn/awesome-algorithm
+actual topics [algorithm,python]
+predicted topics [linux,atom,git,bash,opengl,terraform,3d,compiler,http,font,deep-learning,shell,docker,dotnet,homebrew,qt,postgresql,graphql,library,java]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+AtsushiSakai/PythonRobotics
+actual topics [python,algorithm,localization]
+predicted topics [localization,matlab,3d,machine-learning,deep-learning,algorithm,scikit-learn,jupyter-notebook,tensorflow,data-visualization,unity,game-engine,nlp,ios,data-structures,opengl,css,react-native,sketch,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 100.0
+top rank: 1
+attractivechaos/klib
+actual topics [c,library,algorithm]
+predicted topics [library,data-structures,algorithm,wordpress,clojure,emacs,json,nodejs,parsing,crystal,rest-api,compiler,vim,webpack,monero,azure,nosql,shell,babel,c]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 100.0
+top rank: 1
+avg precision: 6.5
+avg recall: 66.66666666666666
+top rank ratio: 60
+------------------------------
+3da1studmuffin/SpaceshipGenerator
+actual topics [python,3d]
+predicted topics [terminal,shell,3d,opengl,game-engine,unity,npm,firefox,chrome-extension,nodejs,sketch,cli,raspberry-pi,google,chrome,vim,bash,nativescript,react-native,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+AaronJackson/vrn
+actual topics [3d]
+predicted topics [matlab,3d,deep-learning,machine-learning,emacs,tensorflow,nlp,ubuntu,shell,scikit-learn,bash,opengl,homebrew,jupyter-notebook,vagrant,nodejs,monero,data-visualization,ansible,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+akaJes/marlin-config
+actual topics [nodejs,3d,documentation]
+predicted topics [atom,continuous-integration,npm,git,homebridge,eslint,shell,bash,jekyll,raspberry-pi,cli,vagrant,deployment,babel,nodejs,ansible,gulp,firefox,webpack,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+alibaba/G3D
+actual topics [react-native,3d]
+predicted topics [spring-boot,maven,koa,gradle,express,mongoose,ajax,chrome,es6,vue,mongodb,algorithm,mysql,gulp,chrome-extension,nlp,webpack,unity,frontend,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+andyzeng/3dmatch-toolbox
+actual topics [deep-learning,3d]
+predicted topics [matlab,3d,tensorflow,deep-learning,machine-learning,nlp,scikit-learn,jupyter-notebook,gulp,mongoose,eslint,data-visualization,sketch,algorithm,shell,unity,bash,es6,express,cpp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+andyzeng/tsdf-fusion
+actual topics [3d]
+predicted topics [3d,matlab,machine-learning,deep-learning,tensorflow,unity,opengl,nlp,data-visualization,scikit-learn,jupyter-notebook,game-engine,ubuntu,sketch,homebridge,nativescript,algorithm,azure,localization,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+andyzeng/visual-pushing-grasping
+actual topics [deep-learning,3d]
+predicted topics [tensorflow,deep-learning,3d,scikit-learn,nlp,machine-learning,jupyter-notebook,matlab,raspberry-pi,ubuntu,data-visualization,bash,nodejs,aws,sketch,bitcoin,azure,homebridge,shell,shell]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+anhttran/extreme_3d_faces
+actual topics [3d]
+predicted topics [3d,deep-learning,tensorflow,matlab,machine-learning,nlp,scikit-learn,jupyter-notebook,docker,vagrant,rest-api,shell,opengl,raspberry-pi,ansible,ubuntu,nodejs,npm,data-visualization,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+antvis/L7
+actual topics [data-visualization,3d,javascript]
+predicted topics [spring-boot,maven,koa,express,mongoose,gradle,es6,vue,chrome,mongodb,ajax,gulp,algorithm,mysql,chrome-extension,webpack,nlp,frontend,material-design,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+armory3d/armorpaint
+actual topics [3d]
+predicted topics [opengl,3d,game-engine,compiler,windows,git,homebrew,macos,shell,linux,emulator,nodejs,bash,npm,vagrant,vim,cli,firefox,terminal,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+avg precision: 5.5
+avg recall: 71.66666666666666
+top rank ratio: 60
+------------------------------
+ajaxaaroniker/gear-cms
+actual topics [php,vue,ajax]
+predicted topics [wordpress,react-native,sketch,xamarin,bootstrap,twitter,wagtail,laravel,android,firebase,css,ios,firefox,jekyll,graphql,library,terminal,markdown,opengl,vim]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+algolia/faux-jax
+actual topics [ajax,http]
+predicted topics [nodejs,express,eslint,npm,ajax,babel,http,koa,webpack,mongoose,react-native,gulp,json,es6,nativescript,testing,rest-api,react,graphql,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+avinashn/Ajax-CRUD-example-in-laravel
+actual topics [ajax,laravel,php,javascript]
+predicted topics [laravel,ajax,web-components,jquery,mongoose,localization,sass,rest-api,azure,koa,wordpress,minecraft,algorithm,webapp,mongodb,data-structures,database,ubuntu,firefox,php]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 75.0
+top rank: 1
+bahdcoder/Laravel-5.3-and-Vue-js-2.0-social-network
+actual topics [javascript,ajax]
+predicted topics [laravel,symfony,localization,framework,api,shell,rest-api,terminal,webpack,database,google,deployment,twitter,wordpress,firebase,gulp,graphql,rails,jquery,php]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+BosNaufal/vue2-autocomplete
+actual topics [vue,ajax]
+predicted topics [ajax,vue,web-components,jquery,nativescript,es6,webpack,npm,frontend,atom,react,eslint,react-native,bootstrap,babel,nodejs,express,redux,pwa,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+cferdinandi/atomic
+actual topics [javascript,ajax]
+predicted topics [ajax,gulp,nodejs,npm,atom,jquery,eslint,es6,express,babel,sass,react-native,web-components,nativescript,http,webpack,chrome,pwa,rest-api,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+codingforentrepreneurs/Django-Chart.js
+actual topics [django,python,json,ajax]
+predicted topics [django,wagtail,rest-api,flask,bootstrap,data-visualization,raspberry-pi,webapp,pwa,graphql,redux,material-design,kubernetes,webpack,mongodb,laravel,ajax,nodejs,serverless,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 75.0
+top rank: 1
+codingforentrepreneurs/eCommerce
+actual topics [python,django,ajax,bootstrap,jquery]
+predicted topics [bootstrap,django,ajax,firebase,pico-8,redux,serverless,angular,aws,web-components,algorithm,rest-api,ember,sass,pwa,wagtail,data-structures,react,express,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 1
+success rate v5: 0
+precision 20.0
+recall 80.0
+top rank: 1
+craftpip/jquery-confirm
+actual topics [ajax,jquery]
+predicted topics [jquery,ajax,bootstrap,web-components,sass,eslint,css,npm,material-design,react-native,frontend,ember,sketch,chrome-extension,gulp,jekyll,es6,nativescript,shell,html]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+avg precision: 10.0
+avg recall: 70.0
+top rank ratio: 54
+------------------------------
+algorithm0xAX/go-algorithms
+actual topics [algorithm,data-structures,go]
+predicted topics [data-structures,algorithm,linux,twitter,terminal,git,firefox,shell,bash,nodejs,emacs,ethereum,nosql,windows,mongodb,scikit-learn,database,sql,matlab,nlp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 66.66666666666666
+top rank: 1
+algorithm-archivists/algorithm-archive
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,jupyter-notebook,machine-learning,jekyll,operating-system,documentation,scikit-learn,latex,monero,react,linux,bitcoin,deep-learning,emacs,xamarin,nodejs,tensorflow,es6,frontend]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+algorithm-visualizer/algorithm-visualizer
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,machine-learning,matlab,webpack,deep-learning,data-visualization,scikit-learn,jupyter-notebook,monero,tensorflow,frontend,react,npm,react-native,nodejs,pwa,ipfs,firebase,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+Alinshans/MyTinySTL
+actual topics [algorithm,cpp]
+predicted topics [terraform,3d,shell,http,font,deep-learning,docker,homebrew,qt,dotnet,postgresql,graphql,emulator,library,vagrant,web-components,security,crystal,windows,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+Aniket965/Hello-world
+actual topics [algorithm]
+predicted topics [data-structures,cli,chrome-extension,jekyll,vim,atom,emacs,shell,documentation,twitter,react,npm,serverless,github-api,macos,gradle,nativescript,markdown,terminal,windows]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+anthonynsimon/bild
+actual topics [algorithm,go]
+predicted topics [localization,unity,react-native,matlab,3d,sketch,babel,opengl,deep-learning,npm,nodejs,ios,machine-learning,cli,webpack,react,graphql,tensorflow,frontend,go]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+anvaka/ngraph.path
+actual topics [algorithm]
+predicted topics [compiler,algorithm,data-structures,graphql,npm,deep-learning,tensorflow,cli,3d,data-visualization,nodejs,vim,ipfs,machine-learning,es6,webpack,babel,bash,nlp,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+apachecn/awesome-algorithm
+actual topics [algorithm,python]
+predicted topics [linux,atom,git,bash,opengl,terraform,3d,compiler,http,font,deep-learning,shell,docker,dotnet,homebrew,qt,postgresql,graphql,library,java]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+AtsushiSakai/PythonRobotics
+actual topics [python,algorithm,localization]
+predicted topics [localization,matlab,3d,machine-learning,deep-learning,algorithm,scikit-learn,jupyter-notebook,tensorflow,data-visualization,unity,game-engine,nlp,ios,data-structures,opengl,css,react-native,sketch,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 100.0
+top rank: 1
+attractivechaos/klib
+actual topics [c,library,algorithm]
+predicted topics [library,data-structures,algorithm,wordpress,clojure,emacs,json,nodejs,parsing,crystal,rest-api,compiler,vim,webpack,monero,azure,nosql,shell,babel,c]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 100.0
+top rank: 1
+avg precision: 6.5
+avg recall: 66.66666666666666
+top rank ratio: 60
+------------------------------
+3da1studmuffin/SpaceshipGenerator
+actual topics [python,3d]
+predicted topics [terminal,shell,3d,opengl,game-engine,unity,npm,firefox,chrome-extension,nodejs,sketch,cli,raspberry-pi,google,chrome,vim,bash,nativescript,react-native,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+AaronJackson/vrn
+actual topics [3d]
+predicted topics [matlab,3d,deep-learning,machine-learning,emacs,tensorflow,nlp,ubuntu,shell,scikit-learn,bash,opengl,homebrew,jupyter-notebook,vagrant,nodejs,monero,data-visualization,ansible,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+akaJes/marlin-config
+actual topics [nodejs,3d,documentation]
+predicted topics [atom,continuous-integration,npm,git,homebridge,eslint,shell,bash,jekyll,raspberry-pi,cli,vagrant,deployment,babel,nodejs,ansible,gulp,firefox,webpack,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+alibaba/G3D
+actual topics [react-native,3d]
+predicted topics [spring-boot,maven,koa,gradle,express,mongoose,ajax,chrome,es6,vue,mongodb,algorithm,mysql,gulp,chrome-extension,nlp,webpack,unity,frontend,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+andyzeng/3dmatch-toolbox
+actual topics [deep-learning,3d]
+predicted topics [matlab,3d,tensorflow,deep-learning,machine-learning,nlp,scikit-learn,jupyter-notebook,gulp,mongoose,eslint,data-visualization,sketch,algorithm,shell,unity,bash,es6,express,cpp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+andyzeng/tsdf-fusion
+actual topics [3d]
+predicted topics [3d,matlab,machine-learning,deep-learning,tensorflow,unity,opengl,nlp,data-visualization,scikit-learn,jupyter-notebook,game-engine,ubuntu,sketch,homebridge,nativescript,algorithm,azure,localization,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+andyzeng/visual-pushing-grasping
+actual topics [deep-learning,3d]
+predicted topics [tensorflow,deep-learning,3d,scikit-learn,nlp,machine-learning,jupyter-notebook,matlab,raspberry-pi,ubuntu,data-visualization,bash,nodejs,aws,sketch,bitcoin,azure,homebridge,shell,shell]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+anhttran/extreme_3d_faces
+actual topics [3d]
+predicted topics [3d,deep-learning,tensorflow,matlab,machine-learning,nlp,scikit-learn,jupyter-notebook,docker,vagrant,rest-api,shell,opengl,raspberry-pi,ansible,ubuntu,nodejs,npm,data-visualization,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+antvis/L7
+actual topics [data-visualization,3d,javascript]
+predicted topics [spring-boot,maven,koa,express,mongoose,gradle,es6,vue,chrome,mongodb,ajax,gulp,algorithm,mysql,chrome-extension,webpack,nlp,frontend,material-design,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+armory3d/armorpaint
+actual topics [3d]
+predicted topics [opengl,3d,game-engine,compiler,windows,git,homebrew,macos,shell,linux,emulator,nodejs,bash,npm,vagrant,vim,cli,firefox,terminal,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+avg precision: 5.5
+avg recall: 71.66666666666666
+top rank ratio: 60
+------------------------------
+3da1studmuffin/SpaceshipGenerator
+actual topics [python,3d]
+predicted topics [terminal,shell,3d,opengl,game-engine,unity,npm,firefox,chrome-extension,nodejs,sketch,cli,raspberry-pi,google,chrome,vim,bash,nativescript,react-native,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+AaronJackson/vrn
+actual topics [3d]
+predicted topics [matlab,3d,deep-learning,machine-learning,emacs,tensorflow,nlp,ubuntu,shell,scikit-learn,bash,opengl,homebrew,jupyter-notebook,vagrant,nodejs,monero,data-visualization,ansible,shell]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+akaJes/marlin-config
+actual topics [nodejs,3d,documentation]
+predicted topics [atom,continuous-integration,npm,git,homebridge,eslint,shell,bash,jekyll,raspberry-pi,cli,vagrant,deployment,babel,nodejs,ansible,gulp,firefox,webpack,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+alibaba/G3D
+actual topics [react-native,3d]
+predicted topics [spring-boot,maven,koa,gradle,express,mongoose,ajax,chrome,es6,vue,mongodb,algorithm,mysql,gulp,chrome-extension,nlp,webpack,unity,frontend,javascript]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+andyzeng/3dmatch-toolbox
+actual topics [deep-learning,3d]
+predicted topics [matlab,3d,tensorflow,deep-learning,machine-learning,nlp,scikit-learn,jupyter-notebook,gulp,mongoose,eslint,data-visualization,sketch,algorithm,shell,unity,bash,es6,express,cpp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+andyzeng/tsdf-fusion
+actual topics [3d]
+predicted topics [3d,matlab,machine-learning,deep-learning,tensorflow,unity,opengl,nlp,data-visualization,scikit-learn,jupyter-notebook,game-engine,ubuntu,sketch,homebridge,nativescript,algorithm,azure,localization,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+andyzeng/visual-pushing-grasping
+actual topics [deep-learning,3d]
+predicted topics [tensorflow,deep-learning,3d,scikit-learn,nlp,machine-learning,jupyter-notebook,matlab,raspberry-pi,ubuntu,data-visualization,bash,nodejs,aws,sketch,bitcoin,azure,homebridge,shell,shell]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+anhttran/extreme_3d_faces
+actual topics [3d]
+predicted topics [3d,deep-learning,tensorflow,matlab,machine-learning,nlp,scikit-learn,jupyter-notebook,docker,vagrant,rest-api,shell,opengl,raspberry-pi,ansible,ubuntu,nodejs,npm,data-visualization,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+antvis/L7
+actual topics [data-visualization,3d,javascript]
+predicted topics [spring-boot,maven,koa,express,mongoose,gradle,es6,vue,chrome,mongodb,ajax,gulp,algorithm,mysql,chrome-extension,webpack,nlp,frontend,material-design,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 33.33333333333333
+top rank: 0
+armory3d/armorpaint
+actual topics [3d]
+predicted topics [opengl,3d,game-engine,compiler,windows,git,homebrew,macos,shell,linux,emulator,nodejs,bash,npm,vagrant,vim,cli,firefox,terminal,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+avg precision: 5.5
+avg recall: 71.66666666666666
+top rank ratio: 60
+------------------------------
+ajaxaaroniker/gear-cms
+actual topics [php,vue,ajax]
+predicted topics [wordpress,react-native,sketch,xamarin,bootstrap,twitter,wagtail,laravel,android,firebase,css,ios,firefox,jekyll,graphql,library,terminal,markdown,opengl,vim]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+algolia/faux-jax
+actual topics [ajax,http]
+predicted topics [nodejs,express,eslint,npm,ajax,babel,http,koa,webpack,mongoose,react-native,gulp,json,es6,nativescript,testing,rest-api,react,graphql,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 0
+avinashn/Ajax-CRUD-example-in-laravel
+actual topics [ajax,laravel,php,javascript]
+predicted topics [laravel,ajax,web-components,jquery,mongoose,localization,sass,rest-api,azure,koa,wordpress,minecraft,algorithm,webapp,mongodb,data-structures,database,ubuntu,firefox,php]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 75.0
+top rank: 1
+bahdcoder/Laravel-5.3-and-Vue-js-2.0-social-network
+actual topics [javascript,ajax]
+predicted topics [laravel,symfony,localization,framework,api,shell,rest-api,terminal,webpack,database,google,deployment,twitter,wordpress,firebase,gulp,graphql,rails,jquery,php]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+BosNaufal/vue2-autocomplete
+actual topics [vue,ajax]
+predicted topics [ajax,vue,web-components,jquery,nativescript,es6,webpack,npm,frontend,atom,react,eslint,react-native,bootstrap,babel,nodejs,express,redux,pwa,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+cferdinandi/atomic
+actual topics [javascript,ajax]
+predicted topics [ajax,gulp,nodejs,npm,atom,jquery,eslint,es6,express,babel,sass,react-native,web-components,nativescript,http,webpack,chrome,pwa,rest-api,javascript]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+codingforentrepreneurs/Django-Chart.js
+actual topics [django,python,json,ajax]
+predicted topics [django,wagtail,rest-api,flask,bootstrap,data-visualization,raspberry-pi,webapp,pwa,graphql,redux,material-design,kubernetes,webpack,mongodb,laravel,ajax,nodejs,serverless,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 75.0
+top rank: 1
+codingforentrepreneurs/eCommerce
+actual topics [python,django,ajax,bootstrap,jquery]
+predicted topics [bootstrap,django,ajax,firebase,pico-8,redux,serverless,angular,aws,web-components,algorithm,rest-api,ember,sass,pwa,wagtail,data-structures,react,express,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 1
+success rate v5: 0
+precision 20.0
+recall 80.0
+top rank: 1
+craftpip/jquery-confirm
+actual topics [ajax,jquery]
+predicted topics [jquery,ajax,bootstrap,web-components,sass,eslint,css,npm,material-design,react-native,frontend,ember,sketch,chrome-extension,gulp,jekyll,es6,nativescript,shell,html]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 100.0
+top rank: 1
+avg precision: 10.0
+avg recall: 70.0
+top rank ratio: 54
+------------------------------
+algorithm0xAX/go-algorithms
+actual topics [algorithm,data-structures,go]
+predicted topics [data-structures,algorithm,linux,twitter,terminal,git,firefox,shell,bash,nodejs,emacs,ethereum,nosql,windows,mongodb,scikit-learn,database,sql,matlab,nlp]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 10.0
+recall 66.66666666666666
+top rank: 1
+algorithm-archivists/algorithm-archive
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,jupyter-notebook,machine-learning,jekyll,operating-system,documentation,scikit-learn,latex,monero,react,linux,bitcoin,deep-learning,emacs,xamarin,nodejs,tensorflow,es6,frontend]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+algorithm-visualizer/algorithm-visualizer
+actual topics [algorithm]
+predicted topics [algorithm,data-structures,machine-learning,matlab,webpack,deep-learning,data-visualization,scikit-learn,jupyter-notebook,monero,tensorflow,frontend,react,npm,react-native,nodejs,pwa,ipfs,firebase,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 1
+Alinshans/MyTinySTL
+actual topics [algorithm,cpp]
+predicted topics [terraform,3d,shell,http,font,deep-learning,docker,homebrew,qt,dotnet,postgresql,graphql,emulator,library,vagrant,web-components,security,crystal,windows,cpp]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+Aniket965/Hello-world
+actual topics [algorithm]
+predicted topics [data-structures,cli,chrome-extension,jekyll,vim,atom,emacs,shell,documentation,twitter,react,npm,serverless,github-api,macos,gradle,nativescript,markdown,terminal,windows]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+anthonynsimon/bild
+actual topics [algorithm,go]
+predicted topics [localization,unity,react-native,matlab,3d,sketch,babel,opengl,deep-learning,npm,nodejs,ios,machine-learning,cli,webpack,react,graphql,tensorflow,frontend,go]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 50.0
+top rank: 0
+anvaka/ngraph.path
+actual topics [algorithm]
+predicted topics [compiler,algorithm,data-structures,graphql,npm,deep-learning,tensorflow,cli,3d,data-visualization,nodejs,vim,ipfs,machine-learning,es6,webpack,babel,bash,nlp,javascript]
+success rate v1: 1
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 5.0
+recall 100.0
+top rank: 0
+apachecn/awesome-algorithm
+actual topics [algorithm,python]
+predicted topics [linux,atom,git,bash,opengl,terraform,3d,compiler,http,font,deep-learning,shell,docker,dotnet,homebrew,qt,postgresql,graphql,library,java]
+success rate v1: 0
+success rate v2: 0
+success rate v3: 0
+success rate v4: 0
+success rate v5: 0
+precision 0.0
+recall 0.0
+top rank: 0
+AtsushiSakai/PythonRobotics
+actual topics [python,algorithm,localization]
+predicted topics [localization,matlab,3d,machine-learning,deep-learning,algorithm,scikit-learn,jupyter-notebook,tensorflow,data-visualization,unity,game-engine,nlp,ios,data-structures,opengl,css,react-native,sketch,python]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 100.0
+top rank: 1
+attractivechaos/klib
+actual topics [c,library,algorithm]
+predicted topics [library,data-structures,algorithm,wordpress,clojure,emacs,json,nodejs,parsing,crystal,rest-api,compiler,vim,webpack,monero,azure,nosql,shell,babel,c]
+success rate v1: 1
+success rate v2: 1
+success rate v3: 1
+success rate v4: 0
+success rate v5: 0
+precision 15.0
+recall 100.0
+top rank: 1
+avg precision: 6.5
+avg recall: 66.66666666666666
+top rank ratio: 60
