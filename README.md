@@ -4,7 +4,12 @@
 This repository contains the replication package and dataset of the paper to be published at EASE 2020 with the title **A Multinomial Naïve Bayesian (MNB) network to
 automatically recommend topics for GitHub repositories**
 
-The 
+All the resources, including the tool, the dataset, and the article have been realized by:
+
+- Claudio Di Sipio 
+- Riccardo Rubei
+- Davide Di Ruscio
+- Phuong T. Nguyen
 
 
 # Setting the environment 
