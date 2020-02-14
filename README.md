@@ -20,9 +20,7 @@ To enable the crawler, you have to set a personal access token in this way:
 
 access_token = Github ("your token", per_page=100)
 
-To generate an access token from your Github profile, please refer the following link:
-
-https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
+To generate an access token from your Github profile, please refer the following [link](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 
 The optional parameter per_page is useful to paginate the results
 
