@@ -60,9 +60,6 @@ def top_rank(predicted,actual):
         return 0
 
 
-
-
-
 def remove_dashes(actual):
     result=[]
     for topic in actual:
@@ -71,7 +68,6 @@ def remove_dashes(actual):
         else:
             result.append(topic)
     return result
-
 
 
 
@@ -158,7 +154,7 @@ def compute_metrics(act_topics,pred_topics, out_results,repo):
 
 
 
-def calculate_metrics(test_dataset, out_results, out_results2, out_results3, actual, predicted,flag):
+def calculate_metrics(test_dataset, out_results, out_results2, out_results3, actual, predicted):
     # avg_precision=0.0
     # avg_recall=0.0
     # total_top=0
@@ -221,22 +217,22 @@ def calculate_metrics(test_dataset, out_results, out_results2, out_results3, act
 
 
 
-def ten_folder(path_train,path_dest,cut,copy):
-
-    i=0
-
-    for file in sorted(os.listdir(path_train), key=lambda v: v.upper()):
-        print(file)
-        i = i + 1
-        if not copy:
-            shutil.move(path_train+file, path_dest+file)
-        else:
-            copyfile(path_train+file, path_dest+file)
-        if i == cut:
-            i = 0
-            break
-        continue
-
+# def ten_folder(path_train,path_dest,cut,copy):
+#
+#     i=0
+#
+#     for file in sorted(os.listdir(path_train), key=lambda v: v.upper()):
+#         print(file)
+#         i = i + 1
+#         if not copy:
+#             shutil.move(path_train+file, path_dest+file)
+#         else:
+#             copyfile(path_train+file, path_dest+file)
+#         if i == cut:
+#             i = 0
+#             break
+#         continue
+#
 
 # def count_no_fet_topics(file):
 #     disc=open(file,"r",encoding="utf-8",errors="ignore")
@@ -312,94 +308,94 @@ def append_new_topics(file_topics,predicted):
 
 
 
-def ultimate_ten_folder():
-### ten folder validation
-    path1="C:\\Users\\claudio\\Desktop\\projects_new_dataset\\"
-    path2="C:\\Users\\claudio\\Desktop\\half_50"
-    #
-    for t in os.listdir(path1):
-        ##group1
-        ten_folder(path1 + t + "\\", path2 + "\\root\\"+t+"\\", 50, True)
-        ten_folder(path2+"\\root\\"+t+"\\",path2+"\\test1\\"+t+"\\",5, False)
-        ten_folder(path2 + "\\root\\" + t + "\\", path2 + "\\train1\\" + t + "\\", 45, True)
-        ten_folder(path2+"\\train1\\"+t+"\\",path2+"\\temp\\"+t+"\\",45, True)
-        # ##group2
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test2\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train2\\" + t + "\\",40 , True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train2\\" + t + "\\", 5, True)
-        # #group3
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test3\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train3\\" + t + "\\", 35, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train3\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train3\\" + t + "\\", 5, True)
-        # ##group4
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test4\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 30, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 5, True)
-
-        # ##group5
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test5\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 25, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
-        #
-        # ##group6
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test6\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 20, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
-        # ##group7
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test7\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 15, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
-
-        # ##group8
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test8\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 10, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train8\\" + t + "\\",5, True)
-        ten_folder(path2 + "\\test7\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
-
-        # ##group9
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test9\\" + t + "\\", 5, False)
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test7\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test8\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
-
-        # ##group10
-        ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test10\\" + t + "\\", 5, False)
-        #ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 0, True)
-        ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test7\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test8\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
-        ten_folder(path2 + "\\test9\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+# def ultimate_ten_folder():
+# ### ten folder validation
+#     path1="C:\\Users\\claudio\\Desktop\\projects_new_dataset\\"
+#     path2="C:\\Users\\claudio\\Desktop\\half_50"
+#     #
+#     for t in os.listdir(path1):
+#         ##group1
+#         ten_folder(path1 + t + "\\", path2 + "\\root\\"+t+"\\", 50, True)
+#         ten_folder(path2+"\\root\\"+t+"\\",path2+"\\test1\\"+t+"\\",5, False)
+#         ten_folder(path2 + "\\root\\" + t + "\\", path2 + "\\train1\\" + t + "\\", 45, True)
+#         ten_folder(path2+"\\train1\\"+t+"\\",path2+"\\temp\\"+t+"\\",45, True)
+#         # ##group2
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test2\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train2\\" + t + "\\",40 , True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train2\\" + t + "\\", 5, True)
+#         # #group3
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test3\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train3\\" + t + "\\", 35, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train3\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train3\\" + t + "\\", 5, True)
+#         # ##group4
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test4\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 30, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train4\\" + t + "\\", 5, True)
+#
+#         # ##group5
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test5\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 25, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train5\\" + t + "\\", 5, True)
+#         #
+#         # ##group6
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test6\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 20, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train6\\" + t + "\\", 5, True)
+#         # ##group7
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test7\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 15, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train7\\" + t + "\\", 5, True)
+#
+#         # ##group8
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test8\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 10, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train8\\" + t + "\\",5, True)
+#         ten_folder(path2 + "\\test7\\" + t + "\\", path2 + "\\train8\\" + t + "\\", 5, True)
+#
+#         # ##group9
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test9\\" + t + "\\", 5, False)
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test7\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test8\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 5, True)
+#
+#         # ##group10
+#         ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\test10\\" + t + "\\", 5, False)
+#         #ten_folder(path2 + "\\temp\\" + t + "\\", path2 + "\\train9\\" + t + "\\", 0, True)
+#         ten_folder(path2 + "\\test1\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test2\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test3\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test4\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test5\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test6\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test7\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test8\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
+#         ten_folder(path2 + "\\test9\\" + t + "\\", path2 + "\\train10\\" + t + "\\", 5, True)
 
 
 def move_repos(path_train,path_dest):
@@ -442,30 +438,30 @@ def extractNames(file_lang):
 
 
 
-def split_metrics(file_in, file_precision, file_recall, file_top):
-    f=open(file_in, "r")
-    out_precision=open(file_precision,"w")
+# def split_metrics(file_in, file_precision, file_recall, file_top):
+#     f=open(file_in, "r")
+#     out_precision=open(file_precision,"w")
+#
+#     for line in f:
+#         if line.find("no") != -1:
+#             out_precision.write(line.strip() + "\n")
+#
 
-    for line in f:
-        if line.find("no") != -1:
-            out_precision.write(line.strip() + "\n")
 
 
-
-
-def create_topics_folder(root,file_topic):
-    list_folders= open(file_topic,"r", encoding="utf-8", errors="ignore")
-    print(root)
-    list_topic="C:\\Users\\claudio\\Desktop\\projects_new_dataset\\"
-    for folder in os.listdir(root):
-        print(folder)
-        for f in os.listdir(list_topic):
-
-            try:
-                #print("no")
-                os.mkdir(os.path.join(root,folder,str(f).strip()))
-            except:
-                print("already created")
+# def create_topics_folder(root,file_topic):
+#     list_folders= open(file_topic,"r", encoding="utf-8", errors="ignore")
+#     print(root)
+#     list_topic="C:\\Users\\claudio\\Desktop\\projects_new_dataset\\"
+#     for folder in os.listdir(root):
+#         print(folder)
+#         for f in os.listdir(list_topic):
+#
+#             try:
+#                 #print("no")
+#                 os.mkdir(os.path.join(root,folder,str(f).strip()))
+#             except:
+#                 print("already created")
 # begin="C:\\Users\\claudio\\Desktop\\projects_100_readme_ConfB\\"
 # begin2="C:\\Users\claudio\\Desktop\\ten_folder_135\\"
 # end="C:\\Users\claudio\\Desktop\\ten_folder_135\\"
