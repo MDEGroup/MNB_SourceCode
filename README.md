@@ -1,7 +1,9 @@
-# MNB_Topic Recommendation
+# EASE 2020 Replication package
 
 
-This repository contains the source code related to the work done for EASE 2020 Conference
+This repository contains the replication package and dataset of the paper to be published at EASE 2020 with the title **A Multinomial Naïve Bayesian (MNB) network to
+automatically recommend topics for GitHub repositories**
+
 
 # Setting the environment 
 
