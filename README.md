@@ -4,10 +4,12 @@
 This repository contains the replication package and dataset of the paper to be published at EASE 2020 with the title **A Multinomial Naïve Bayesian (MNB) network to
 automatically recommend topics for GitHub repositories**
 
+The 
+
 
 # Setting the environment 
 
-To run the Python scripts, you need the following requirements:
+To run the Python scripts, you need the following libraries:
 
 - scikit-learn 0.22.1
 - nltk 3.4.5
@@ -35,9 +37,7 @@ In main.py, you have to edit the following paths:
 - test_dir = "path_to_test_folder"
 
 
-After the train data is loaded, you have to run predict_topics function
-
-Parameters:
+After the train data is loaded, you have to modify the following parameters in the predict_topics function: 
 
 - dirs: the root folder that contains the test files
 - test_dir: the test folder for a single round
