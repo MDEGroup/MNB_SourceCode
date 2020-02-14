@@ -7,12 +7,12 @@ This repository contains the source code related to the work done for EASE 2020 
 
 To run the Python scripts, you need the following requirements:
 
--scikit-learn 
--nltk
--guesslang
--PyGithub
+- scikit-learn 0.22.1
+- nltk 3.4.5
+- guesslang 0.9.3
+- PyGithub 1.44
 
-Notice that guesslang module requires Python 3.6 
+Notice that guesslang module requires Python 3.6
 
 # Crawler settings
 
@@ -26,7 +26,25 @@ https://help.github.com/en/github/authenticating-to-github/creating-a-personal-a
 
 The optional parameter per_page is useful to paginate the results
 
+# Run the tool 
 
-The following link contains all the resources related the work done for EASE 2020:
+In main.py, you have to edit the following paths:
+
+train_dir = "path_to_train_folder"
+test_dir = "path_to_test_folder"
+
+
+Then run:
+
+main.py
+
+
+
+# Dataset and experiments
+
+
+The following link contains the dataset used in the evaluation as well as the results in CSV format:
 
 https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT
+
+
