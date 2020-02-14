@@ -6,10 +6,9 @@ from pygit2 import clone_repository
 
 
 #get authorization code
-g = Github("claudioDsi","github17", per_page=100)
+g = Github("put your access token here", per_page="100")
 
-g3= Github("a3d3c26c8cf3683b1c18559051429f6cc6ecfb1f",per_page=100)
-g4 = Github("391fa11a36c42f30d7d7147f2199a561fe131ecc", per_page=100)
+
 
 # def get_langs(path):
 #     file=open(path, "r")
