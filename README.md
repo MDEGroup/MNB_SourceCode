@@ -34,7 +34,20 @@ To generate an access token from your Github profile, please refer the following
 
 The optional parameter per_page is useful to paginate the results
 
-# Run the tool 
+# Repository structure 
+
+This repository contains the source code of the tool structured as follows:
+'''
+MNB_code
+    .
+    |--- MNB.py         This file contains the MNB code to predict topics, including the topic aggregation phase
+    |--- crawler.py     It contains all teh utilities to mine Github repositories
+    |--- guessLang.py   This module performs the language prediction
+    |--- metrics.py     It contains all necessary scripts to compute the metrics         
+'''
+
+
+# Running tool 
 
 In main.py, you have to edit the following paths:
 
