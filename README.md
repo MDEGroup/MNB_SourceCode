@@ -61,28 +61,29 @@ The output is a CSV files with all the metrics presented in the work:
 
 # Dataset and experiments
 
-This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains the dataset used in the evaluation as well as the results in CSV format
+This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains all the datasets used in the evaluation as well as the results in CSV format
 
-As discussed in the paper, we have build three different dataset by variating the number of files used in the training phase i.e., 10, 50, and 100:
+As discussed in the paper, we have build three different dataset by variating the number of files used in the training phase i.e., 10, 50, and 100. The structure is the following:
 
 ```
+evaluation
+
 results
     .
-    |--- validation_100/       		It contains the results for the 10 README files
+    |--- validation_100/            It contains the results for the 10 README files and the list of repositories used as query 
     |
-    |--- validation_50/				The ten-folder structure for the 50 README files
+    |--- validation_50/             It contains the results for the 50 README files and the list of repositories used as query 
     |
-    |--- validation_10/   			The ten-folder structure for the 10 README files
-    
+    |--- validation_10/             It contains the results for the 50 README files and the list of repositories used as query
 
 
 evaluation structure
     .
-    |--- ten_folder_100.rar/       		The ten-folder structure for the 100 ReadMe
+    |--- ten_folder_100.rar/            The ten-folder structure for the 100 ReadMe
     |
-    |--- ten_folder_50.rar/				The ten-folder structure for the 50 ReadMe
+    |--- ten_folder_50.rar/             The ten-folder structure for the 50 ReadMe
     |
-    |--- ten_folder_10.rar/   			The ten-folder structure for the 10 ReadMe
+    |--- ten_folder_10.rar/             The ten-folder structure for the 10 ReadMe
     
 ```
 
