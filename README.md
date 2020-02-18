@@ -12,6 +12,27 @@ All the resources, including the tool, the dataset, and the article have been re
 - Phuong T. Nguyen
 
 
+We provide the PDF version of the article in this repository
+
+# How to cite the work
+
+If you are interested in our work, please cite it as follows:
+
+```
+
+@inproceedings{EASE_2020,
+    title = {A {Multinomial} {Naïve} {Bayesian} ({MNB}) {Network} to {Automatically} {Recommend} {Topics}  for {GitHub} {Repositories}},
+    abstract = {GitHub has become a precious service for storing and managing software source code. Over the last year, 10M new developers have joined the GitHub community, contributing to more than 44M repositories. In order to help developers increase the reachability of their repositories, in 2017 GitHub introduced the possibility to classify them by means of topics. However, assigning wrong topics to a given repository can compromise the possibility of helping other developers approach it, and thus preventing them from contributing to its development.},
+    language = {en},
+    author = {Di Sipio, Claudio and Rubei, Riccardo and  Di Ruscio, Davide and Nguyen, Phuong T},
+    year = {2020},
+    pages = {10},
+    file = {Sipio et al. - 2020 - A Multinomial Naïve Bayesian (MNB) Network to Auto.pdf:C\:\\Users\\claudio\\Zotero\\storage\\25FAN7N5\\Sipio et al. - 2020 - A Multinomial Naïve Bayesian (MNB) Network to Auto.pdf:application/pdf}
+}       
+```
+
+
+
 # Setting the environment 
 
 To run the Python scripts, you need the following libraries:
