@@ -37,14 +37,14 @@ The optional parameter per_page is useful to paginate the results
 # Repository structure 
 
 This repository contains the source code of the tool structured as follows:
-'''
+```
 MNB_code
     .
     |--- MNB.py         This file contains the MNB code to predict topics, including the topic aggregation phase
     |--- crawler.py     It contains all teh utilities to mine Github repositories
     |--- guessLang.py   This module performs the language prediction
     |--- metrics.py     It contains all necessary scripts to compute the metrics         
-'''
+```
 
 
 # Running tool 
