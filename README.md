@@ -34,9 +34,9 @@ To generate an access token from your Github profile, please refer the following
 
 The optional parameter per_page is useful to paginate the results
 
-# Repository structure 
+# Code structure 
 
-This repository contains the source code of the tool structured as follows:
+This folder contains the source code of the tool structured as follows:
 ```
 MNB_code
     .
