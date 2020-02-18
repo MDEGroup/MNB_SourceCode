@@ -26,8 +26,8 @@ If you are interested in our work, please cite it as follows:
     language = {en},
     author = {Di Sipio, Claudio and Rubei, Riccardo and  Di Ruscio, Davide and Nguyen, Phuong T},
     year = {2020},
-    pages = {10},
-    file = {Sipio et al. - 2020 - A Multinomial Naïve Bayesian (MNB) Network to Auto.pdf:C\:\\Users\\claudio\\Zotero\\storage\\25FAN7N5\\Sipio et al. - 2020 - A Multinomial Naïve Bayesian (MNB) Network to Auto.pdf:application/pdf}
+    pages = {10}
+
 }       
 ```
 
