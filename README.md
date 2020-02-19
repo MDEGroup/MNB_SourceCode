@@ -62,9 +62,13 @@ This folder contains the source code of the tool structured as follows:
 MNB_code
     .
     |--- MNB.py         This file contains the MNB code to predict topics, including the topic aggregation phase
+    |
     |--- crawler.py     It contains all teh utilities to mine Github repositories
+    |
     |--- guessLang.py   This module performs the language prediction
+    |
     |--- main.py        It is used to run the tools
+    |
     |--- metrics.py     It contains all necessary scripts to compute the metrics         
 ```
 
@@ -84,7 +88,7 @@ After the train data is loaded, you have to modify the following parameters in t
 - train_dir: the train folder for a single round
 - labels: the list of topics to predict
 - num_topics: number of predicted topics
-- list_test: a txt file that contains the name of repository to test
+- list_test: a txt file that contains the name of repository to test (available together with the datasets)
 
 The output is a CSV files with all the metrics presented in the work:
 - success rate (1..5)
@@ -110,22 +114,30 @@ As discussed in the paper, we have build three different dataset by variating th
 ```
 evaluation
 
+test_files
+    .
+    |--- test_files_D1/            It contains the test projects of D1 for each evaluation round
+    |
+    |--- test_files_D2/            It contains the test projects of D2 for each evaluation round
+    |
+    |--- test_files_D3/            It contains the test projects of D3 for each evaluation round
+
 results
     .
-    |--- validation_10/            It contains the results for the dataset D1 files and the list of repositories used as query 
+    |--- validation_10/            It contains the results computed for D1  
     |
-    |--- validation_50/             It contains the results for the dataset D2 files and the list of repositories used as query 
+    |--- validation_50/            It contains the results computed for D2 
     |
-    |--- validation_100/             It contains the results for the dataset D3 files and the list of repositories used as query
+    |--- validation_100/           It contains the results computed for D3 
 
 
 evaluation structure
     .
-    |--- ten_folder_10.rar/            The ten-folder structure for D1
+    |--- ten_folder_10.rar/        The ten-folder structure for D1
     |
-    |--- ten_folder_50.rar/             The ten-folder structure for D2
+    |--- ten_folder_50.rar/        The ten-folder structure for D2
     |
-    |--- ten_folder_100.rar/             The ten-folder structure for D3
+    |--- ten_folder_100.rar/       The ten-folder structure for D3
     
 ```
 

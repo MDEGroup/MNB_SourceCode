@@ -8,7 +8,7 @@ import shutil
 samples = 1000
 size = 10000
 main_dir = "C:\\Users\\claudio\\Desktop\\models\\"
-ad = open("langs_results.txt","r")
+ad = open("langs_results.txt", "r")
 already_downloaded = ad.readlines()
 ad.close()
 
