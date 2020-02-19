@@ -98,11 +98,11 @@ The output is a CSV files with all the metrics presented in the work:
 
 This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains all the datasets used in the evaluation as well as the results in CSV format. 
 
-| Dataset   | #  of testing files |  # of training files |
-|---------- |:-------------------:|---------------------:|
-| D1        | 134                 |   1,206              |
-| D2        | 670                 |   6,030              |
-| D3        | 1,340               |   12,060             |
+| Dataset   | # of testing files | # of training files |
+|---------- |:------------------:|--------------------:|
+| D1        | 134                | 1,206               |
+| D2        | 670                | 6,030               |
+| D3        | 1,340              | 12,060              |
 
 
 As discussed in the paper, we have build three different dataset by variating the number of files used in the training phase as shown in the table above. The structure is the following:
