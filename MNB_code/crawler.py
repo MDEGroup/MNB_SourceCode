@@ -4,7 +4,7 @@ import csv
 
 #get authorization code
 g = Github("your token", per_page=100)
-#g = Github("claudioDsi","github17", per_page=100)
+
 
 
 def map_repos2topics(list_repo):
