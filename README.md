@@ -96,13 +96,13 @@ The output is a CSV files with all the metrics presented in the work:
 
 # Dataset and experiments
 
-This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains all the datasets used in the evaluation as well as the results in CSV format. 
+This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains all the datasets used in the evaluation as well as the results in CSV format. The table below shows the composition for each dataset:
 
-| Dataset   | # of testing files | # of training files |
-|---------- |:------------------:|--------------------:|
-| D1        | 134                | 1,206               |
-| D2        | 670                | 6,030               |
-| D3        | 1,340              | 12,060              |
+| Dataset | # of testing file | # of training files |
+|---------|-------------------|---------------------|
+| D1      | 134               | 1,206               |
+| D2      | 670               | 6,030               |
+| D3      | 1,340             | 12,060              |
 
 
 As discussed in the paper, we have build three different dataset by variating the number of files used in the training phase as shown in the table above. The structure is the following:
@@ -112,20 +112,20 @@ evaluation
 
 results
     .
-    |--- validation_100/            It contains the results for the 10 README files and the list of repositories used as query 
+    |--- validation_10/            It contains the results for the dataset D1 files and the list of repositories used as query 
     |
-    |--- validation_50/             It contains the results for the 50 README files and the list of repositories used as query 
+    |--- validation_50/             It contains the results for the dataset D2 files and the list of repositories used as query 
     |
-    |--- validation_10/             It contains the results for the 50 README files and the list of repositories used as query
+    |--- validation_100/             It contains the results for the dataset D3 files and the list of repositories used as query
 
 
 evaluation structure
     .
-    |--- ten_folder_100.rar/            The ten-folder structure for the 100 ReadMe
+    |--- ten_folder_10.rar/            The ten-folder structure for D1
     |
-    |--- ten_folder_50.rar/             The ten-folder structure for the 50 ReadMe
+    |--- ten_folder_50.rar/             The ten-folder structure for D2
     |
-    |--- ten_folder_10.rar/             The ten-folder structure for the 10 ReadMe
+    |--- ten_folder_100.rar/             The ten-folder structure for D3
     
 ```
 
