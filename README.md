@@ -64,6 +64,7 @@ MNB_code
     |--- MNB.py         This file contains the MNB code to predict topics, including the topic aggregation phase
     |--- crawler.py     It contains all teh utilities to mine Github repositories
     |--- guessLang.py   This module performs the language prediction
+    |--- main.py        It is used to run the tools
     |--- metrics.py     It contains all necessary scripts to compute the metrics         
 ```
 
@@ -95,9 +96,16 @@ The output is a CSV files with all the metrics presented in the work:
 
 # Dataset and experiments
 
-This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains all the datasets used in the evaluation as well as the results in CSV format
+This [link](https://drive.google.com/drive/folders/197LCCfBTcpbqqaPfxO4C8V0t3f-XFnKT) contains all the datasets used in the evaluation as well as the results in CSV format. 
 
-As discussed in the paper, we have build three different dataset by variating the number of files used in the training phase i.e., 10, 50, and 100. The structure is the following:
+| Dataset   |      #  of testing files     |  # of training files |
+|----------|:-------------:|------:|
+| D1 |   | 134   |  |  1,206   |
+| D2 |   | 670   |  |  6,030   |
+| D3 |   | 1,340 |  |  12,060  |
+
+
+As discussed in the paper, we have build three different dataset by variating the number of files used in the training phase as shown in the table above. The structure is the following:
 
 ```
 evaluation
