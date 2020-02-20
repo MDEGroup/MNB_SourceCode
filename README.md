@@ -12,24 +12,7 @@ All the resources, including the tool, the dataset, and the article have been re
 - Phuong T. Nguyen
 
 
-We provide the PDF version of the article in this repository
-
-# How to cite the work
-
-If you are interested in our work, please cite it as follows:
-
-```
-
-@inproceedings{EASE_2020,
-    title = {A {Multinomial} {Naïve} {Bayesian} ({MNB}) {Network} to {Automatically} {Recommend} {Topics}  for {GitHub} {Repositories}},
-    abstract = {GitHub has become a precious service for storing and managing software source code. Over the last year, 10M new developers have joined the GitHub community, contributing to more than 44M repositories. In order to help developers increase the reachability of their repositories, in 2017 GitHub introduced the possibility to classify them by means of topics. However, assigning wrong topics to a given repository can compromise the possibility of helping other developers approach it, and thus preventing them from contributing to its development.},
-    language = {en},
-    author = {Di Sipio, Claudio and Rubei, Riccardo and  Di Ruscio, Davide and Nguyen, Phuong T},
-    year = {2020},
-    pages = {10}
-
-}       
-```
+We will provide the PDF version of the article in this repository
 
 
 
@@ -45,15 +28,6 @@ To run the Python scripts, you need the following libraries:
 
 Notice that guesslang module requires Python 3.6. More information about this module can be found [here](https://pypi.org/project/guesslang/)
 
-# Crawler settings
-
-To enable the crawler, you have to set a personal access token in this way:
-
-access_token = Github ("your token", per_page=100)
-
-To generate an access token from your Github profile, please refer the following [link](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
-
-The optional parameter per_page is useful to paginate the results
 
 # Code structure 
 
@@ -73,9 +47,22 @@ MNB_code
 ```
 
 
+
+# Crawler settings
+
+To enable the crawler, you have to set a personal access token using the following function in **crawler.py**:
+```
+access_token = Github ("your token", per_page=100)
+```
+
+To generate an access token from your Github profile, please refer the following [link](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+
+The optional parameter per_page is useful to paginate the results
+
+
 # Running tool 
 
-In main.py, you have to edit the following paths:
+In **main.py**, you have to edit the following paths:
 
 - train_dir = "path_to_train_folder"
 - test_dir = "path_to_test_folder"
