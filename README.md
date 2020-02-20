@@ -51,7 +51,7 @@ MNB_code
 # Crawler settings
 
 To enable the crawler, you have to set a personal access token using the following function in **crawler.py**:
-```
+```python
 access_token = Github ("your token", per_page=100)
 ```
 
