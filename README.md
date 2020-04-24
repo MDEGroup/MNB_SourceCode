@@ -1,8 +1,7 @@
-# EASE 2020 Replication package
+# MNB Replication package
 
 
-This repository contains the replication package and dataset of the paper to be published at EASE 2020 with the title **A Multinomial Naïve Bayesian (MNB) network to
-automatically recommend topics for GitHub repositories**
+This repository contains the replication package and dataset of the paper entitled **A Multinomial Naïve Bayesian (MNB) network to automatically recommend topics for GitHub repositories** which has been published in the Proceedings of the Evaluation and Assessment in Software Engineering (EASE '20) 
 
 All the resources, including the tool, the dataset, and the article have been realized by:
 
@@ -12,7 +11,7 @@ All the resources, including the tool, the dataset, and the article have been re
 - Phuong T. Nguyen
 
 
-We will provide the PDF version of the article in this repository
+The paper is available [here](https://dl.acm.org/doi/abs/10.1145/3383219.3383227).
 
 
 
@@ -60,7 +59,7 @@ To generate an access token from your Github profile, please refer the following
 The optional parameter per_page is useful to paginate the results
 
 
-# Running tool 
+# Running the tool 
 
 In **main.py**, you have to edit the following paths:
 
@@ -128,6 +127,29 @@ evaluation structure
     
 ```
 
+
+## How to cite
+If you find our work useful for your research, please cite the paper using the following BibTex entry:
+
+```
+@inproceedings{10.1145/3383219.3383227,
+author = {{Di Sipio}, Claudio and Rubei, Riccardo and {Di Ruscio}, Davide and Nguyen, Phuong T.},
+title = {A Multinomial Na\"{\i}ve Bayesian (MNB) Network to Automatically Recommend Topics for GitHub Repositories},
+year = {2020},
+isbn = {9781450377317},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3383219.3383227},
+doi = {10.1145/3383219.3383227},
+booktitle = {Proceedings of the Evaluation and Assessment in Software Engineering},
+pages = {71–80},
+numpages = {10},
+keywords = {GitHub topics, Recommender systems, Multinomial Na\"{\i}ve Bayesian network},
+location = {Trondheim, Norway},
+series = {EASE ’20}
+}
+
+```
 
 
 
