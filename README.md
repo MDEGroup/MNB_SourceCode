@@ -11,7 +11,9 @@ All the resources, including the tool, the dataset, and the article have been re
 - Phuong T. Nguyen
 
 
-The paper is available [here](https://dl.acm.org/doi/abs/10.1145/3383219.3383227).
+The paper is available [here](https://dl.acm.org/doi/abs/10.1145/3383219.3383227). A pre-print of the paper can be found [here](https://www.researchgate.net/profile/Phuong_Nguyen62/publication/341128780_A_Multinomial_Naive_Bayesian_MNB_Network_to_Automatically_Recommend_Topics_for_GitHub_Repositories/links/5f54f018458515e96d3375aa/A-Multinomial-Naive-Bayesian-MNB-Network-to-Automatically-Recommend-Topics-for-GitHub-Repositories.pdf?).
+
+
 
 
 
